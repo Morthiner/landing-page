@@ -7,27 +7,99 @@
     </head>
     
     <body>
-        <div class="header-logo">
-            <p class="logo">Header Logo</p>
+        <div class="wrapper"> <!--Change p -> div // "logo" -> "wrapper"-->
+        <div id="first"> <!-- Change class -> id // "header-logo" -> first-->
+    <!--add <nav>-->
+        <nav>
+            <div id="navLogo">Header Logo</div>
             <ul>
                 <li>header link one</li>
                 <li>header link two</li>
                 <li>header link three</li>
             </ul>
-        </div>
-
-        <div class="header">    
-            <div class="text">
-                <h1 class="title1">This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast </p>
-                <button class="sign-up">Sign up</button>
+        </nav>    
+    <!--add </nav>-->
+         <!-- Remove this closing bracket -->
+        <div class ="hero">    <!-- Change class -> id // "header" to "hero" -->
+            <div id ="heroLeft">   <!-- Change class -> // id "text"-> "heroLeft"-->
+                <h2>This website is awesome</h2> <!-- h1 -> h2 // REMOVE class -->
+                <p>
+                    This website has some subtext that goes here under the main title. 
+                    It's a smaller font and the color is lower contrast 
+                </p>
+                <button class="signUp">Sign up</button> 
             </div>
-            <div class="img">   
-                <img src="./images/russian-progress-logo.png" alt="this is a placeholder for an image">
+            <div id ="heroRight"> <!-- Change class -> id // "img" -> "heroRight"-->  
+                <img 
+                    src="./images/russian-progress-logo.png" 
+                    alt="this is a placeholder for an image"
+                />
             </div>
         </div>
-        
+      </div> <!-- add /div-->    
+    </div>
+    <div class="wrapper">
+        <div id="second">
+            <h2 id="headerText">Some random information.</h2>
+            <nav>
+                <ul class="informationNav">                
+                    <li class="secondItems">
+                        <img
+                            src="./images/russian-progress-logo.png"
+                            alt="Some image or illustration"
+                            class="secondImage"
+                        />
+                        <p class="subtext">
+                            this is some subtext under an illustration or image
+                        </p>
+                    </li>
 
+                    <li class="secondItems">
+                        <img
+                            src="./images/russian-progress-logo.png"
+                            alt="Some image or illustration"
+                            class="secondImage" 
+                        />
+                        <p class="subtext">
+                            this is some subtext under an illustration or image
+                        </p>
+                    </li>
 
-    </body>
-</html>
+                    <li class="secondItems">
+                        <img
+                            src="./images/russian-progress-logo.png"
+                            alt="Some image or illustration"
+                            class="secondImage"
+                        />
+                        <p class="subtext">
+                            this is some subtext under an illustration or image
+                        </p>
+                    </li>
+
+                    <li>
+                        <img
+                            src="./images/russian-progress-logo.png"
+                            alt="Some image or illustration"
+                            class="secondImage"
+                        />
+                        <p class="subtext">
+                            this is some subtext under an illustration or image
+                        </p>
+                    </li>
+                </ul>
+            </nav>
+      </div>
+    </div>
+    <div class="wrapper">
+       
+        <div id="third">
+            <div class="quote">
+            <p id="quoteText">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just
+                filling up space, or maybe people will actually read it. Who knows? All i know
+                is that it looks nice.
+            </p>
+            <p id="quoteName">-Thor, God of Thunder</p>
+            </div
+        </div>
+    </div>
