@@ -234,6 +234,22 @@ div.textSignup {
     gap:
 }
 
-button.signUp {
+.textSignup button.signUp {
     border: 2px solid white;
+}
+
+#fith {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-content: center;
+    padding: 24px; 
+    font-size: 12px;
 }
